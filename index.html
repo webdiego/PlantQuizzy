@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>QUIZ</title>
+</head>
+<body>
+
+  <!--TOP SECTION-->
+  <div class="intro py-3 bg-white text-center">
+    <div class="container">
+      <h2 class="text-success display-3 my-4">Plants Quizzy <img class="leaf" src="./img/leaf.png" alt=""></h2>
+     
+    </div>
+  </div>
+
+
+<!--RESULT SECTION-->
+<div class="result py-4 d-none bg-light text-center ">
+  <div class="container lead">
+    <p>You are <span class="text-success display-4 p-3"> 0% </span>a plant! </p>
+    
+  </div>
+</div>
+  <div class="quiz py-4 topography">
+    <div class="container">
+      <h2 class="my-5 text-white">On with the questions...</h2>
+
+
+
+      <form class="quiz-form  text-light">
+        <!--Number 1-->
+        <div class="my-5">
+          <p class="lead text-monospace font-weight-bolder">
+            1. Which is the tallest tree on the planet?</p>
+            <div class="form-check my-2-text-white-50 mb-3">
+              <input type="radio" name="q1" value="A" checked >
+              <label class="form-check-label text-monospace " >Redwood-Sequioia seprevirens(USA)</label>
+            </div>
+
+            <div class="form-check my-2-text-white-50">
+              <input type="radio" name="q1" value="B"  >
+              <label class="form-check-label text-monospace" >Giant Ash-Eucalyptus regnans(AUSTRALIA)</label>
+            </div>
+         
+        </div>
+
+
+      <!--Number 2-->
+        <div class="my-5 ">
+          <p class="lead font-wheight-normal text-monospace">
+            2. Which trees are more evolved and have a faster reproduction speed?</p>
+            <div class="form-check my-2-text-white-50 mb-3">
+              <input type="radio" name="q2" value="A" checked >
+              <label class="form-check-label text-monospace" >Gymnosperms with no flowers or fruits</label>
+            </div>
+
+            <div class="form-check my-2-text-white-50">
+              <input type="radio" name="q2" value="B"  >
+              <label class="form-check-label text-monospace" >Angiosperm also called flowering plants </label>
+            </div>
+         
+        </div>
+
+        
+    <!--Number 3-->
+    <div class="my-5 ">
+      <p class="lead font-wheight-normal text-monospace">
+        3. Under ultraviolet rays (the visual spectrum that insects have) the color or/and shape  of the flowers is</p>
+        <div class="form-check my-2-text-white-50 mb-3">
+          <input type="radio" name="q3" value="A" checked >
+          <label class="form-check-label text-monospace" >Not much different!Change just a color!</label>
+        </div>
+
+        <div class="form-check my-2-text-white-50">
+          <input type="radio" name="q3" value="B"  >
+          <label class="form-check-label text-monospace" >Is like see another flower with different color and lines ..you could see an airport runway for the insects! </label>
+        </div>
+      </div>
+<!--number 4-->
+ <div class="my-5 ">
+          <p class="lead font-wheight-normal text-monospace">
+           4. Why most of the island in the ocean has palm and not other tree?</p>
+
+            <div class="form-check my-2-text-white-50 mb-3">
+              <input type="radio" name="q4" value="A" checked >
+              <label class="form-check-label text-monospace" >Can you immagine a island in the equator with pine?</label>
+            </div>
+
+            <div class="form-check my-2-text-white-50">
+              <input type="radio" name="q4" value="B"  >
+              <label class="form-check-label text-monospace" >The seed of the palm (one of the biggest) can "swim" for days and months until it land on these island..so palm seed are pirat plants! </label>
+            </div>
+         
+        </div>
+
+    
+      
+        <div>
+          <div class="text-center">
+            <input type="submit" class="btn btn-outline-light  btn-block" >
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="footer text-center">
+  <a href="https://github.com/webdiego"> <img class="pizza" src="./img/pizza.png" alt=""></a> 
+  </div>
+  <script src="./quiz.js"></script>
+</body>
+</html>
